@@ -16,9 +16,9 @@ function App() {
         <button>Action</button>
       </Greet>
       <Greet name="Penguin" trait="creepiness" /> */}
-      <Welcome name="Batman" trait="dynamism"/>
+      {/* <Welcome name="Batman" trait="dynamism"/>
       <Welcome name="Robin" trait="agility"/>
-      <Welcome name="Penguin" trait="creepiness"/>
+      <Welcome name="Penguin" trait="creepiness"/> */}
       {/* <Hello /> */}
       <Message />
     </div>
