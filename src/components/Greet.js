@@ -4,7 +4,8 @@ import React from 'react';
 //     return <h1>Hello Vishwas</h1>
 // }
 
-const Greet = ({name, trait}) => {
+const Greet = (props) => {
+    const {name, trait} = props
     return (
         <div>
             <h1>Hello {name}, your strength is {trait}</h1>

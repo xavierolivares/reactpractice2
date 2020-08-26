@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 class Welcome extends Component {
     render() {
-        return <h1>Welcome, {this.props.name}! Your trait is {this.props.trait}.</h1>;
+        const {name, trait} = this.props
+        // const {state1, state2} = this.state
+        return <h1>Welcome, {name}! Your trait is {trait}.</h1>;
     }
 }
 
