@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Form from './components/Form';
+// import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
@@ -21,7 +22,8 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifeCycleA />
+      {/* <Form /> */}
       {/* <h1 className='error'>error</h1>
       <h1 className={styles.success}>SUCCESSFUL</h1> */}
       {/* <Inline />
