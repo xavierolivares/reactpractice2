@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import RefDemos from './components/RefDemos';
+// import RefDemos from './components/RefDemos';
+import FocusInput from './components/FocusInput';
 // import PureComp from './components/PureComp';
 // import ParentComponent2 from './components/ParentComponent2';
 // import Form from './components/Form';
@@ -27,7 +28,8 @@ import RefDemos from './components/RefDemos';
 function App() {
   return (
     <div className="App">
-      <RefDemos />
+      <FocusInput />
+      {/* <RefDemos /> */}
       {/* <ParentComponent2 /> */}
       {/* <PureComp /> */}
       {/* <Tables />    */}

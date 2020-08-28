@@ -24,8 +24,8 @@ class RefDemos extends Component {
     render() {
         return (
             <div>
-              <input text="" ref={this.inputRef}/>
-              <input text="" ref={this.setCbRef}/>
+              <input type="text" ref={this.inputRef}/>
+              <input type="text" ref={this.setCbRef}/>
               <button onClick={this.clickHandler}>Click</button>
             </div>
         )
