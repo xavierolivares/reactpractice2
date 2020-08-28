@@ -1,8 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import RefDemos from './components/RefDemos';
 // import PureComp from './components/PureComp';
-import ParentComponent2 from './components/ParentComponent2';
+// import ParentComponent2 from './components/ParentComponent2';
 // import Form from './components/Form';
 // import LifeCycleA from './components/LifeCycleA';
 // import Tables from './components/Tables';
@@ -26,7 +27,8 @@ import ParentComponent2 from './components/ParentComponent2';
 function App() {
   return (
     <div className="App">
-      <ParentComponent2 />
+      <RefDemos />
+      {/* <ParentComponent2 /> */}
       {/* <PureComp /> */}
       {/* <Tables />    */}
       {/* <FragmentDemo /> */}
