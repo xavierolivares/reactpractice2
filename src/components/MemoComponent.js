@@ -1,6 +1,7 @@
 import React from 'react'
 
 function MemoComponent({name}) {
+    console.log('Rendering MemoComponent')
     return (
         <div>
             {name}
@@ -8,4 +9,4 @@ function MemoComponent({name}) {
     )
 }
 
-export default MemoComponent
+export default React.memo(MemoComponent)
