@@ -1,9 +1,11 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+// import PureComp from './components/PureComp';
+import ParentComponent2 from './components/ParentComponent2';
 // import Form from './components/Form';
 // import LifeCycleA from './components/LifeCycleA';
-import Tables from './components/Tables';
+// import Tables from './components/Tables';
 // import FragmentDemo from './components/FragmentDemo';
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
@@ -24,7 +26,9 @@ import Tables from './components/Tables';
 function App() {
   return (
     <div className="App">
-      <Tables />
+      <ParentComponent2 />
+      {/* <PureComp /> */}
+      {/* <Tables />    */}
       {/* <FragmentDemo /> */}
       {/* <LifeCycleA /> */}
       {/* <Form /> */}
