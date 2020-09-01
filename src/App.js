@@ -2,8 +2,9 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 // import PortalDemo from './components/PortalDemo';
-import Hero from './components/Hero';
-import ErrorBoundary from './components/ErrorBoundary';
+// import Hero from './components/Hero';
+// import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
 // import RefDemos from './components/RefDemos';
 // import FocusInput from './components/FocusInput';
 // import FRParentInput from './components/FRParentInput';
@@ -32,7 +33,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 function App() {
   return (
     <div className="App">
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
       <ErrorBoundary>
@@ -40,7 +41,8 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Joker" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+      <ClickCounter />
       {/* <PortalDemo /> */}
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
