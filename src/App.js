@@ -41,8 +41,8 @@ function App() {
     <div className="App">
       {/* <HoverCounter2 />
       <ClickCounter2 /> */}
-      <Counter1 render={(count, incrementCount) => (<ClickCounter2 count={count} incrementCount={incrementCount} /> )} />
-      <Counter1 render={(count, incrementCount) => (<HoverCounter2 count={count} incrementCount={incrementCount} /> )} />
+      <Counter1>{(count, incrementCount) => (<ClickCounter2 count={count} incrementCount={incrementCount} /> )}</Counter1>
+      <Counter1>{(count, incrementCount) => (<HoverCounter2 count={count} incrementCount={incrementCount} /> )}</Counter1>
       {/* <User render={(isLoggedIn) => isLoggedIn? 'Vishwas': 'Guest'}/> */}
       {/* <HoverCounter name="Xavier" /> */}
       {/* <ErrorBoundary>
