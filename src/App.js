@@ -6,8 +6,11 @@ import './App.css';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import ClickCounter from './components/ClickCounter';
 // import HoverCounter from './components/HoverCounter';
-import ClickCounter2 from './components/ClickCounter2';
+// import ClickCounter2 from './components/ClickCounter2';
 import HoverCounter2 from './components/HoverCounter2';
+// import User from './components/User';
+import Counter1 from './components/Counter1';
+import ClickCounter2 from './components/ClickCounter2';
 // import RefDemos from './components/RefDemos';
 // import FocusInput from './components/FocusInput';
 // import FRParentInput from './components/FRParentInput';
@@ -36,8 +39,11 @@ import HoverCounter2 from './components/HoverCounter2';
 function App() {
   return (
     <div className="App">
-      <HoverCounter2 />
-      <ClickCounter2 />
+      {/* <HoverCounter2 />
+      <ClickCounter2 /> */}
+      <Counter1 render={(count, incrementCount) => (<ClickCounter2 count={count} incrementCount={incrementCount} /> )} />
+      <Counter1 render={(count, incrementCount) => (<HoverCounter2 count={count} incrementCount={incrementCount} /> )} />
+      {/* <User render={(isLoggedIn) => isLoggedIn? 'Vishwas': 'Guest'}/> */}
       {/* <HoverCounter name="Xavier" /> */}
       {/* <ErrorBoundary>
         <Hero heroName="Batman" />
