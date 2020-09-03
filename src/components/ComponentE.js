@@ -5,7 +5,8 @@ import UserContext from './userContext'
 export class ComponentE extends Component {
 
     static contextType = UserContext
-    
+    // limitation: static method only works with static method.
+
     render() {
         return (
             <div>
@@ -17,5 +18,6 @@ export class ComponentE extends Component {
 }
 
 // ComponentE.contextType = UserContext
+// limitation: contexttype only works with one context
 
 export default ComponentE
