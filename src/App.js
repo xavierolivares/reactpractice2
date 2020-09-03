@@ -41,9 +41,9 @@ import { UserProvider } from './components/userContext';
 function App() {
   return (
     <div className="App">
-      <UserProvider value="Vishwas">
+      {/* <UserProvider value="Vishwas"> */}
         <ComponentC />
-      </UserProvider>
+      {/* </UserProvider> */}
       {/* <HoverCounter2 />
       <ClickCounter2 /> */}
       {/* <Counter1>{(count, incrementCount) => (<ClickCounter2 count={count} incrementCount={incrementCount} /> )}</Counter1> */}
