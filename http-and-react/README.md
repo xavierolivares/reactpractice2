@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Installed Axios with instructions from this YT link: https://www.youtube.com/watch?v=GTmjthNvrxY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=41
+
 ## Available Scripts
 
 In the project directory, you can run:
